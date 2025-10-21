@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.jar
+!dex-transformer/build/libs/*.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# Android
+*.apk
+*.ap_
+*.aab
+*.dex
+local.properties
+*.log
+
+# Temp files
+temp/
+*.tmp
+
+# macOS
+.DS_Store
+
+# Build outputs
+sample-app/app/build/
+sample-app/app/.gradle/
+dex-transformer/build/
+dex-transformer/.gradle/
+
+# Signing
+*.jks
+*.keystore
